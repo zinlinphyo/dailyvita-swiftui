@@ -29,9 +29,34 @@
 		2D307BCB2CE4A9B600FDEF97 /* dailyvita-swiftuiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dailyvita-swiftuiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		2D307C0F2CE4AE6100FDEF97 /* Exceptions for "dailyvita-swiftui" folder in "dailyvita-swiftuiTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Data/Jsons/allergies.json,
+				Data/Jsons/Diets.json,
+				Data/Jsons/Healthconcern.json,
+			);
+			target = 2D307BC02CE4A9B600FDEF97 /* dailyvita-swiftuiTests */;
+		};
+		2D307C102CE4AE6100FDEF97 /* Exceptions for "dailyvita-swiftui" folder in "dailyvita-swiftuiUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Data/Jsons/allergies.json,
+				Data/Jsons/Diets.json,
+				Data/Jsons/Healthconcern.json,
+			);
+			target = 2D307BCA2CE4A9B600FDEF97 /* dailyvita-swiftuiUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		2D307BB32CE4A9B400FDEF97 /* dailyvita-swiftui */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				2D307C0F2CE4AE6100FDEF97 /* Exceptions for "dailyvita-swiftui" folder in "dailyvita-swiftuiTests" target */,
+				2D307C102CE4AE6100FDEF97 /* Exceptions for "dailyvita-swiftui" folder in "dailyvita-swiftuiUITests" target */,
+			);
 			path = "dailyvita-swiftui";
 			sourceTree = "<group>";
 		};
