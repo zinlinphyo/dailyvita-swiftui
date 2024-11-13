@@ -31,7 +31,7 @@ struct DietSelectionView: View {
                         ))
                         Spacer()
                         Button(action: {
-                            // Display tooltip (as an alert, for example)
+                            print("Tooltip for \(option.name)")
                         }) {
                             Image(systemName: "info.circle")
                         }
